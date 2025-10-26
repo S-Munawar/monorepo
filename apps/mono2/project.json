@@ -1,0 +1,46 @@
+{
+  "name": "mono2",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mono2/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project mono2 --web",
+  "targets": {
+        "serve": {
+      "executor": "@nx/vite:dev-server",
+      "options": {
+        "buildTarget": "mono2:build",
+        "proxyConfig": "apps/mono2/proxy.conf.json"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "mono2:build:production"
+        }
+      }
+    },
+    "build": {
+      "executor": "@nx/vite:build",
+      "options": {
+        "outputPath": "dist/apps/mono2",
+        "index": "apps/mono2/src/index.html",
+        "main": "apps/mono2/src/main.tsx",
+        "assets": [
+          "apps/mono2/src/assets"
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/mono2/**/*.ts",
+          "apps/mono2/**/*.tsx",
+          "apps/mono2/**/*.js",
+          "apps/mono2/**/*.jsx"
+        ]
+      }
+    }
+
+  }
+  
+}

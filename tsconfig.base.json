@@ -6,8 +6,8 @@
     "importHelpers": true,
     "isolatedModules": true,
     "lib": ["es2022"],
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
@@ -17,5 +17,8 @@
     "strict": true,
     "target": "es2022",
     "customConditions": ["@monorepo/source"]
+  },
+  "paths": {
+    "@monorepo/api-interface": ["packages/shared/api-interface/src/index.ts"]
   }
 }
