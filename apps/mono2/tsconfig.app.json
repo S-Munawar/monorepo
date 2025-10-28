@@ -38,5 +38,13 @@
     "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx"
+  ],
+  "references": [
+    {
+      "path": "../../packages/shared/react-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shared/api-interface/tsconfig.lib.json"
+    }
   ]
 }

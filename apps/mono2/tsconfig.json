@@ -3,6 +3,12 @@
   "include": [],
   "references": [
     {
+      "path": "../../packages/shared/react-lib"
+    },
+    {
+      "path": "../../packages/shared/api-interface"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

@@ -4,6 +4,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../packages/shared/api-interface"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

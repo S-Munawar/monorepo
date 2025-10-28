@@ -5,7 +5,7 @@
     "emitDeclarationOnly": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noEmitOnError": true,
@@ -15,10 +15,12 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "es2022",
-    "customConditions": ["@monorepo/source"]
-  },
-  "paths": {
-    "@monorepo/api-interface": ["packages/shared/api-interface/src/index.ts"]
+    "target": "ES2020",
+    "customConditions": ["@monorepo/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo/api-interface": ["packages/shared/api-interface/src/index.ts"],
+      "@monorepo/react-lib": ["packages/shared/react-lib/src/index.ts"]
+    }
   }
 }

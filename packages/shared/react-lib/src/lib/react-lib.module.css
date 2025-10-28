@@ -1,0 +1,128 @@
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container h1 {
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.gameCard {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.gameCard p {
+  margin: 0.5rem 0;
+  color: #374151;
+}
+
+.gameCard p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.gameImage {
+  max-width: 200px;
+  height: auto;
+  border-radius: 0.375rem;
+  margin: 0.5rem 0;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #2563eb;
+}
+
+.searchButton {
+  background-color: #10b981;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.searchButton:hover {
+  background-color: #059669;
+}
+
+.input {
+  padding: 0.625rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  width: 300px;
+  margin-top: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.reviewsSection {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin: 1rem 0;
+}
+
+.reviewCard {
+  background: white;
+  padding: 1rem;
+  border-left: 3px solid #3b82f6;
+  margin: 0.75rem 0;
+  border-radius: 0.25rem;
+}
+
+.reviewCard p {
+  margin: 0.25rem 0;
+}
+
+.reviewCard p:first-child {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 1.5rem 0;
+}
+
+.noData {
+  color: #6b7280;
+  font-style: italic;
+  padding: 1rem;
+  text-align: center;
+}

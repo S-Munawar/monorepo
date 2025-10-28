@@ -1,27 +1,31 @@
 import { useState, useEffect } from "react";
-import { type ApiResponse, API_URL } from "@monorepo/api-interface";
+import { API_URL } from "@monorepo/api-interface";
+
+import { Route, Routes, Link } from 'react-router-dom';
+
+import { Games } from '@monorepo/react-lib';
 
 
 export function App() {
-  const [apiResponse, setApiResponse] = useState<ApiResponse>({ message: "Loading..." });
+  // const [apiResponse, setApiResponse] = useState<ApiResponse>({ message: "Loading..." });
 
-  useEffect(() => {
-    const fetchApi = async () => {
-      try {
-        const res = await fetch(API_URL);
-        const data = await res.json();
-        setApiResponse(data);
-      } catch (err) {
-        console.error("Error fetching API:", err);
-        setApiResponse({ message: "Error fetching API" });
-      }
-    };
-    fetchApi();
-  }, []);
+  // useEffect(() => {
+  //   const fetchApi = async () => {
+  //     try {
+  //       const res = await fetch(API_URL);
+  //       const data = await res.json();
+  //       setApiResponse(data);
+  //     } catch (err) {
+  //       console.error("Error fetching API:", err);
+  //       setApiResponse({ message: "Error fetching API" });
+  //     }
+  //   };
+  //   fetchApi();
+  // }, []);
 
   return (
     <div>
-      <h1>{apiResponse.message}</h1>
+    <Games url={API_URL} />
     </div>
   );
 }

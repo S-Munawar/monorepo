@@ -17,6 +17,9 @@
     },
     {
       "path": "./packages/shared/api-interface"
+    },
+    {
+      "path": "./packages/shared/react-lib"
     }
   ]
 }
