@@ -21,7 +21,7 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudId": "68fe72d45f80751a24e18b4b",
+  "nxCloudId": "69011d97ae2a281e1c34f85e",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nx/nx-cloud",
@@ -30,10 +30,9 @@
         "accessToken": "YjI2MzA2MGEtNWQ1Ni00MTY2LTljMzAtY2Q1MThjZGU2NjFmfHJlYWQ=",
         "canTrackAnalytics": false,
         "showUsageWarnings": true
-        }
       }
+    }
   },
-
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
