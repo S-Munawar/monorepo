@@ -21,7 +21,7 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudId": "69011e2d9e5b6fb03aa5d653",
+  "nxCloudId": "690123d92e502dc139fe2699",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nx/nx-cloud",
