@@ -21,19 +21,7 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudId": "68fe72d45f80751a24e18b4b",
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "@nx/nx-cloud",
-      "options": {
-        "pruneLockfile": false,
-        "accessToken": "YjI2MzA2MGEtNWQ1Ni00MTY2LTljMzAtY2Q1MThjZGU2NjFmfHJlYWQ=",
-        "canTrackAnalytics": false,
-        "showUsageWarnings": true
-        }
-      }
-  },
-
+  "nxCloudId": "69011e2d9e5b6fb03aa5d653",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
